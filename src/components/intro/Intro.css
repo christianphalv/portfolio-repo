@@ -1,0 +1,23 @@
+#hero {
+    min-height: 100vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-size: 1.5rem;
+    border-bottom: 0;
+    background: var(--background);
+    font-weight: 400;
+    color: var(--text);
+    padding: 0 15% 0 10%;
+    margin-bottom: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.highlighted-text {
+    color: var(--primary);
+}
